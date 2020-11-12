@@ -17,6 +17,10 @@ import static com.google.code.kaptcha.Constants.*;
 public class CaptchaController {
     @Resource(name = "captchaProducer")
     private Producer captchaProducer;
-    @GetMapping("/captchaImage")
-    public AjaxResult getCode
+  /*  @GetMapping("/captchaImage")
+    public AjaxResult getCode(){
+
+    }
+
+   */
 }
